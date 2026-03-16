@@ -33,7 +33,7 @@ class PlayerState:
     """プレイヤーの状態管理"""
 
     def __init__(self):
-        self.name = "アキト"
+        self.name = "ナオト"
         self.hp = 50
         self.max_hp = 50
         self.attack = 12
@@ -103,7 +103,7 @@ class Game:
 
     def _init_resources(self):
         """リソース初期化（16x16スプライト、FC DQ3品質準拠）"""
-        # === プレイヤーキャラ アキト（16x16, 下向き静止）===
+        # === プレイヤーキャラ ナオト（16x16, 下向き静止）===
         # 色0=透過, F=肌, 5=青服, A=黄ベルト, 4=茶髪/靴, 1=目
         player_sprite = [
             "0000004440000000",

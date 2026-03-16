@@ -54,7 +54,7 @@ class TestInitialState(unittest.TestCase):
 
     def test_player_state_defaults(self):
         p = PlayerState()
-        self.assertEqual(p.name, "アキト")
+        self.assertEqual(p.name, "ナオト")
         self.assertEqual(p.hp, 50)
         self.assertEqual(p.max_hp, 50)
         self.assertEqual(p.attack, 12)
